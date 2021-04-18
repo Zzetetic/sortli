@@ -14,7 +14,7 @@ class Base(Controller):
         description = _('Sorting list app')
 
         # text displayed at the bottom of --help output
-        epilog = _('Usage: sort asc -l 2 1 3 -t bubble')
+        epilog = _('Usage: sortli asc -l 2 1 3 -t bubble')
 
         # controller level arguments. ex: 'sort --version'
         arguments = [
